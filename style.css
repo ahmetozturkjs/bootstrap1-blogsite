@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.nav-link{
+    display: inline;
+}
+.logo{
+    height: 50px;
+}
+.ayrac{
+    font-size: 20px;
+    margin: 0 20px;
+    color: #fff;
+}
+.hakkimizda{
+    height: calc(50vh-76px);
+    
+}
+.arkadiv{
+    background-image: url(resimler/ust-bg.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.sayfabaslik h3{
+    color:#f4b70b;
+    font-weight: bold;
+}
+.sayfabaslik p{
+    color: #fff;
+    font-weight: bold;
+}
+.arkadivsayfalar{
+    background-image: url(resimler/ust-bg-2.jpg);
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.nav-bg{
+    background-color: rgba(148, 137, 137, 0.152);
+}
+.nav-item {
+    transition: all ease 0.5s;
+}
+.nav-item a{
+    color: rgb(224, 234, 224);
+    font-size: 16px;
+    font-weight: 900;
+}
+.nav-item a:hover{
+    color:#f4b70b
+}
+
+.navbar-toggler-icon {
+    background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); ;
+    
+}
+@media screen and (max-width: 992px){
+    .ayrac{
+        display: none;
+    }
+    .nav-item:hover{
+        background-color: black;
+        transform: translateX(20px);
+    }
+}
+.rowhome{
+    padding-top: 8rem;
+}
+
+/* ---teklif kısmı--- */
+.teklif{
+    height:5rem ;
+}
+.tırnak{
+    color: #f4b70b;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.imza{
+    font-size: 1.4rem;
+}
+
+/* ---hizmetlerimiz--- */
+.hizmetlerimiz{
+    background-color: #f4b70b;
+}
+/* ---çalışanlar--- */
+.foto{
+    height: 10rem;
+    background-color: cadetblue;
+    border-radius: 50%;
+}
+/* ----slogan--- */
+.tırnak2{
+    color: #f4b70b;
+    font-size: 4rem;
+    font-weight: bold;
+}
+.imza2{
+    color: #fff;
+    font-size: 2rem;
+}
+.slogan{
+    background-image:url(./resimler/ust-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.roketikon{
+    font-size: 10rem;
+    color: #fff;
+}
+
+/* ----çalışmalarımız--- */
+.calismaresim{
+    height: 10rem;
+}
+.calisma{
+    border: 1px solid transparent;
+}
+.calisma:hover{
+    border: solid .1rem black;
+    cursor: pointer;
+}
+/* ---footer--- */
+.footer{
+    background-color: rgb(41, 52, 17);
+    color: #95a5a6;
+
+}
+.icons i{
+    margin: 0 1rem;
+}
+.icons i:hover{
+    background-color: #f4b70b;
+    cursor: pointer;
+}
